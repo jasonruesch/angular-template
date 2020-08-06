@@ -11,7 +11,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "test:watch": "jest --watch",
-    "e2e:run": "ng run project-name:cypress-run"
+    "e2e:run": "ng run project-name:cypress-run",
+    "serve:prod": "http-server -p 8080 -c-1 dist/project-name"
   },
   "private": true,
   "dependencies": {
@@ -25,6 +26,7 @@
     "@angular/platform-browser": "~10.0.8",
     "@angular/platform-browser-dynamic": "~10.0.8",
     "@angular/router": "~10.0.8",
+    "@angular/service-worker": "~10.0.8",
     "@briebug/cypress-schematic": "^3.3.0",
     "@briebug/jest-schematic": "^2.1.1",
     "rxjs": "~6.5.4",
@@ -43,6 +45,7 @@
     "@types/node": "^12.11.1",
     "codelyzer": "^6.0.0",
     "cypress": "4.12.1",
+    "http-server": "^0.12.3",
     "jasmine-core": "~3.5.0",
     "jasmine-spec-reporter": "~5.0.0",
     "jest": "26.2.2",
