@@ -1,32 +1,38 @@
-# ProjectName
+# Project Name
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
+After using this template, find and replace `project-name` and `Project Name` with the name you would like to use for your new project.
+
+This template project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
 Generate component, service, and directive with Spectator spec templates with Angular Cli:
 
-### Component:  
+### Component:
+
 Default spec: `npx ng g cs dashrized-name`  
 Spec with a host: `npx ng g cs dashrized-name --withHost=true`  
 Spec with a custom host: `npx ng g cs dashrized-name --withCustomHost=true`
 
-### Service:  
+### Service:
+
 Default spec: `npx ng g ss dashrized-name`  
 Spec for testing http data service: `npx ng g ss dashrized-name --isDataService=true`
 
-### Directive:  
+### Directive:
+
 `npx ng g ds dashrized-name`
 
 You can also use `npx ng generate pipe|class|guard|interface|enum|module`.
 
 ## Build
 
-Run `npm run build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-- --prod` flag for a production build.
+Run `npm run build` to build the project. The build artifacts will be stored in the `dist/` directory.  
+Use the `-- --prod` flag for a production build.
 
 ## Running unit tests
 
